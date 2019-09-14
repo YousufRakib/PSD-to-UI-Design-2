@@ -1,0 +1,487 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Titillium Web', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+.container{
+	max-width: 1024px;
+	width: :80%;
+	margin: 0 auto;
+}
+.button{
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 600;
+	padding: 10px 50px;
+	border-radius: 4px;
+}
+.section-header h2{
+	font-size: 28px;
+	font-weight: 600;
+	color: #3B465C;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 3px;
+}
+.section-header p{	
+	text-align: center
+}
+.section-header hr{
+	width: 80px;
+	border: 1.5px solid #19A38C;
+}
+.col-4{
+	width: 23%;
+	float: left;
+	overflow: hidden;
+	margin: 0 1%;
+}
+.col-4 h3{
+	text-transform: uppercase;
+	color: #3c4761;
+	font-size: 18px;
+}
+
+/***  Header Area  ***/
+.header-area{
+	background-color:#87509c;
+	overflow: hidden;
+}
+.header-area .header-top{
+	clear: both;
+}
+.logo{
+	width: 30%;
+	float: left;
+	overflow: hidden;
+}
+.header-area .logo a{
+	text-decoration: none;
+}
+.header-area .logo h1{
+	color: white;
+	font-family: cooper black;
+	font-size: 35px;
+	text-decoration: none;
+}
+.header-area .header-menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+	margin-top: 25px;
+}
+.header-area .header-menu ul li{
+	float: left;
+	margin-left: 10px;	
+}
+.header-area .header-menu ul li a{
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 7px 15px;
+	display: block;
+	border-radius: 5px;
+}
+.header-area ul .current a,
+.header-area ul li:hover a{	
+	background: #643a79;
+}
+.header-area .header-action{
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	color: white;
+	padding: 50px 0;
+}
+.header-area .header-action h1{
+	font-weight: 700;
+	font-size: 25px;
+}
+.header-area .button{
+	border-bottom: 3px solid #C6663C;
+	background: #EB7D4A;
+	margin: 20px 0 30px;
+	display: inline-block;
+	transition: .4s;
+}
+.header-area .button:hover {
+	border-bottom: 3px solid #34495e;
+	background: #2c3e50
+}
+
+/**** Services Area ****/
+.services-area{
+	background: #17C1A4;
+	overflow: hidden;
+	padding: 60px 0;
+	color: white;
+	text-align: center;
+}
+.section-header p{
+
+}
+.services-item img{
+	width: 110px;
+	height: 120px;
+}
+
+
+/**** Team Area ****/
+.team-area{
+	background: #E7F2F8;
+	color: #878787;
+	padding: 60px 0;
+	text-align: center;
+	overflow: hidden;
+}
+.team-item h3{
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+.team-item h4{
+	color: #30bae7;
+	text-transform: capitalize;
+	margin: 0;
+	font-weight: 600;
+}
+.team-area hr{
+	border: 1.5px solid #CCCCCC;
+}
+.team{
+	overflow: hidden;
+	margin-top: 80px;
+}
+/*.team .team-item{
+	width: 22%;
+	float: left;
+	overflow: hidden;
+	margin-right: 3%;
+}
+.team .team-item: nth-child(4n) {
+	margin-right: 0;
+} */
+.team img{
+	width: 120px;
+	height: 120px;
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+}
+.team-item .social ul li{
+	display:inline;
+	list-style: none;
+	margin: 2px;
+}
+.team-item .social ul li a i{
+	background: #BDD3E0;
+	font-size: 13px;
+	color: #FFFFFF;
+	height: 13px;
+	width: 13px;
+	padding: 6px;
+	border-radius: 50%;
+	transition-duration: .5s;
+}
+.team-item .social ul li a:hover i{
+	background: #3A5795;
+}
+
+
+/****  Skills Area  ****/
+.skill-area{
+	background: white;
+	color: #878787;
+	padding: 60px 0;
+	text-align: center;
+	overflow: hidden;
+}
+.skills{
+	overflow: hidden;
+	margin-top: 80px;
+}
+
+
+/****  Protfolio Area  ****/
+.protfolio-area{
+	background: #FFDC98;
+	color: #878787;
+	padding: 60px 0;
+	text-align: center;
+	overflow: hidden;
+}
+.protfolios{
+	overflow: hidden;
+	margin-top: 60px;
+}
+.protfolios img{
+	width: 300px;
+	height: 200px;
+	display: block;
+	margin: auto;
+}
+.col-up-2{
+	width: 40%;
+	float: left;
+	overflow: hidden;
+	margin: 0 4%;
+}
+.col-up-2 h4{
+	text-transform: capitalize;
+	color: #393939;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 2px;
+}
+.col-down-2{
+	width: 40%;
+	float: left;
+	overflow: hidden;
+	margin: 0 4%;
+}
+.col-down-2 h4{
+	text-transform: capitalize;
+	color: #393939;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 2px;
+}
+.protfolio-area .protfolio-menu ul{
+	text-align: center;
+	padding: 0;
+}
+.protfolio-area .protfolio-menu ul li{
+	display: inline;
+	list-style: none;	
+}
+.protfolio-area .protfolio-menu ul li a{
+	background: #EBC884;
+	color: #666666;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	display: inline-block;
+	border-radius: 3px;
+	min-width: 45px;
+	text-align: center;
+}
+.protfolio-area .protfolio-menu ul .current a,
+.protfolio-area .protfolio-menu ul li:hover a{	
+	background: white;
+}
+.protfolio-area .button{
+	border-bottom: 3px solid #14a58c;
+	background: #17C1A4;
+	margin: 20px 0 30px;
+	display:inline-block;
+	transition: .4s;
+}
+.protfolio-area .button:hover {
+	border-bottom: 3px solid #34495e;
+	background: #2c3e50
+}
+.protfolio-area hr{
+	border-color: #E5C27E;
+}
+
+
+/****  About Area  **/
+.about-area{
+	background: #D74681;
+	color: #FFFFFF;
+	padding: 60px 0;
+	overflow: hidden;
+}
+.about-area hr{
+	width: 80px;
+	border: 1.5px solid #b73c6d;
+}
+.testimonials{
+	margin-top: 50px;
+}
+.col-up-2{
+	width: 46%;
+	float: left;
+	overflow: hidden;
+	margin: 0 2%;
+	margin-bottom: 60px;
+}
+.col-down-2{
+	width: 46%;
+	float: left;
+	overflow: hidden;
+	margin: 0 2%;
+	margin-bottom: 60px;
+}
+.testimonials .client-thumble{
+	width: 22%;
+	float: left;
+	overflow: hidden;
+	margin-right: 3%;
+}
+.testimonials .client-thumble img{
+	height: 55px;
+	width: 70px;
+	border-radius: 50%;
+}
+.testimonials .client-content{
+	width: 75%;
+	overflow: hidden;
+}
+.client-content p{
+	margin-top: 0;
+	font-style: italic;
+}
+.client-content h3{
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+.client-content h4{
+	color: #ffdd99;
+	font-size: 14px;
+	margin: 0;
+}
+
+
+
+/****  Contact Area  ****/
+.contact-area{
+	background: #3C549A;
+	color: #FFFFFF;
+	padding: 60px 0;
+	text-align: center;
+	overflow: hidden;
+}
+.contact-area hr{
+	border-color: #273A72;
+}
+.contact-area .section-header h2{
+	font-size: 28px;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 3px;
+}
+.contact-area .container{
+	width: 60%;
+}
+.contact-form input[type="text"]{
+	margin-right: 4%;
+	float: left;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"]{
+	width: 48%;
+	display: block;
+	box-sizing: border-box;
+	background: #273A72;
+	border: none;
+	color: #FFFFFF;
+	padding: 2%;
+}
+.contact-form textarea{
+	display: block;
+	width: 100%;
+	border: 0;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin: 20px 0;
+	background: #273A72;	
+	color: #FFFFFF;
+	padding: 2%;
+	min-height: 150px;
+}
+.contact-form input[type="text"]:focus,  /** Focus mane click korar por change hoaya **/
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus{	
+	background: #2c3e50;
+}
+.contact-form input[type="submit"]{
+	font-family: 'Titillium Web', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+	background: #30BAE8;
+	color: #FFFFFF;
+	border: none;
+	cursor: pointer;
+	padding: 15px 40px;
+	border-bottom: 2px solid #289BC7;
+	background: #17C1A4;
+	font-weight: 600;
+	margin-top: 20px;
+	display:inline-block;
+	transition: .4s;
+	text-transform: uppercase;
+	border-radius: 4px;
+}
+.contact-form input[type="submit"]:hover {
+	border-bottom: 2px solid #34495e;
+	background: #2c3e50
+}
+/**
+.contact-form button{
+	border:none;
+	background:red;
+	color: #FFFFFF;
+	padding:0;
+	position:relative;
+	padding:10px 42px 8px 10px;
+}
+.contact-form button i{
+	background:blue;
+	padding:10px;
+	position:absolute;
+	right:-1px;
+	top:0;
+}
+**/
+
+
+
+/****  Footer Area  ****/
+.footer-area{
+	background: #344B8E;
+	color: #FFFFFF;
+	text-transform: capitalize;
+	overflow: hidden;
+}   
+.footer-area .social-profiles ul{
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+.footer-area .social-profiles ul li{
+	display: inline;
+	padding: 8px 20px;
+
+}
+.footer-area .social-profiles ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 15px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.footer-area .social-profiles ul li:hover a{
+	color: #30bae7;
+}
+
+/** Responsive korar jonno mone rackte hobe : max width 768 ar upore gele bujte hobe design a problem ace; **/
+
+
+
+
+
+
+
+
+

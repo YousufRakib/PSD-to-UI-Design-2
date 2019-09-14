@@ -1,0 +1,46 @@
+@media all and (max-width: 768px) {
+	.container{
+		width: 95%;
+	}
+	.logo{
+		width: 100%;
+		float: none;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.header-area .header-menu ul {
+		float: none;
+		/*text-align: center;*/
+	}
+	.header-area .header-menu ul li {
+		float: none;
+		/*display: inline;*/
+	}
+	/*.header-menu ul li a{
+		display: inline-block;
+
+	}*/
+	.col-4{
+		width: 46%;
+		margin: 0 2%;
+		margin-bottom: 30px;
+	}
+}
+@media all and (max-width: 600px){
+	.col-4{
+		width: 96%;
+		float: none;
+	}
+	.col-up-2{
+		width: 96%;
+		float: none;
+	}
+	.col-down-2{
+		width: 96%;
+		float: none;
+	}
+}
+
+
+
+
